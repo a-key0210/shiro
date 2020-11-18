@@ -1,0 +1,333 @@
+/* ======================================================================= */
+/* 全体
+/* ======================================================================= */
+html, body, ul, ol, li, 
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+.all-style {
+    top : 0px;
+    left : 0px;
+    height : 5154px;
+    margin : 0 auto;
+    background-color : rgba(255, 255, 255, 1);
+}
+
+.line {
+    display : inline-block;
+    padding : 0.5px 20px;
+    background-color : rgba(51, 51, 51, 1);
+}
+
+.top-wrapper {
+    width : 100%;
+    height : 620px;
+    background-image : url("/image/header.png");
+    background-size : cover;
+    text-align : center;
+    color : rgba(255, 255, 255, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-wrapper h1 {
+    display : inline-block;
+    margin-top : 240px;
+    font-size : 120px;
+    font-weight : normal;
+}
+
+.top-wrapper p {
+    margin-bottom : 244px;
+}
+
+.top-wrapper span {
+    
+    display : inline-block;
+    margin-top : 3px;
+    margin-bottom : 3px;
+    margin-left : 5px;
+    margin-right : 5px;
+    width : 12px;
+    height : 2px;
+    background-color : rgba(255, 255, 255, 1);
+}
+
+.main-wrapper {
+    text-align : center;
+    height : 1609px;
+    margin : 0px auto;
+}
+
+.main-title {
+    padding-top : 80px;
+    font-size : 36px;
+    color : rgba(51, 51, 51, 1);
+}
+
+.main-text {
+    margin-top : 32px;
+    font-size : 16px;
+    color : rgba(43, 43, 43, 1);
+}
+
+.concept-img {
+    position: relative;
+    margin-bottom : 542px;
+}
+.concept-img img {
+    text-align : center;
+    display : inline-block;
+    position : absolute;
+    width : 960px;
+    height : 400px;
+    top : 40px;
+    bottom : 0px;
+    left : 0px;
+    right : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    z-index : 1;
+}
+.concept-box {
+    position : absolute;
+    width : 100%;
+    top : 320px;
+    height : 240px;
+    background-color : rgba(237, 237, 237, 1);
+}
+
+.work-detail {
+    width : 960px;
+    height : 1609px;
+    margin-top : 40px;
+    top : 0px;
+    bottom : 0px;
+    left : 0px;
+    right : 0px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.work-left {
+    width : 420px;
+    float : left;
+}
+
+.work-right {
+    margin-top : 120px;
+    width : 420px;
+    float : right;
+}
+
+.work-title {
+    margin-top : 16px;
+    text-align : left;
+    font-size : 24px;
+    font-weight: bold;
+    color : rgba(51, 51, 51, 1);
+}
+
+.work-text {
+    margin-bottom : 80px;
+    text-align : left;
+    width : 420px;
+    height : 84px;
+    font-size : 16px;
+    color : rgba(43, 43, 43, 1);
+}
+
+.members {
+    height : 651px;
+}
+
+.members-container {
+    height : 374px;
+    top : 0px;
+    background-color : rgba(237, 237, 237, 1);
+}
+
+.members-detail {
+    display : inline-block;
+    margin-left : auto;
+    margin-right : auto;
+    top : 0px;
+    bottom : 0px;
+    left : 0px;
+    right : 0px;
+    width : 960px;
+}
+
+.member {
+    margin-top : 40px;
+    float : left;
+    width : 300px;
+    height : 180px;
+    z-index: 1;
+}
+
+.mao {
+    padding-left : 30px;
+    padding-right : 30px;
+}
+
+.member-title {
+    text-align : left;
+    width : 115px;
+    height : 40px;
+    font-size : 24px;
+    color : rgba(51, 51, 51, 1);
+}
+
+.member-text {
+    text-align : left;
+    width : 300px;
+    height : 108px;
+    font-size : 16px;
+    color : rgba(43, 43, 43, 1);
+}
+
+.information {
+    height : 686px;
+    width : 960px;
+    display : inline-block;
+    margin-left : auto;
+    margin-right : auto;
+    top : 0px;
+    bottom : 0px;
+    left : 0px;
+    right : 0px;
+}
+
+.information img {
+    float : left;
+    width : 480px;
+    height : 320px;
+    margin-top : 40px;
+}
+
+.information-detail {
+    float : right;
+    width : 432px;
+    height : 320px;
+    margin-top : 40px;
+    padding-top : 32px;
+    font-size : 16px;
+    color : rgba(43, 43, 43, 1);
+}
+
+.information-value {
+    display : block;
+    float : left;
+    text-align : left;
+    width : 432px;
+}
+
+.information-culmun {
+    border-right : 1px solid rgba(160, 160, 160, 1);
+    width : 80px;
+    padding-left : 32px;
+    margin-bottom : 12px;
+    float : left;
+    text-align : left;
+}
+
+.information-text {
+    display : inline-block;
+    padding-left : 16px;
+}
+
+.address {
+    height : 64px;
+}
+
+.phone {
+    height : 32px;
+}
+
+.time {
+    height : 64px;
+}
+
+.access {
+    height : 64px;
+}
+
+.contact {
+    width : 100%;
+    height : 450px;
+    background-image : url("/image/contact_us.png");
+    background-size : cover;
+}
+
+.contact-btn {
+    position : relative;
+    display : inline-block;
+    line-height: 80px;
+    margin-top : 40px;
+    width : 360px;
+    height : 80px;
+    background-color : rgba(255, 255, 255, 1);
+    border : 1px solid rgba(160, 160, 160, 1);
+    cursor : pointer;
+    box-shadow : 0px 5px rgba(160, 160, 160, 1);
+    border-radius : 5px;
+}
+
+.contact-btn:active {
+    top : 5px;
+    box-shadow : none;
+}
+
+.contact-text {
+    font-size : 20px;
+    color : rgba(43, 43, 43, 1);
+}
+
+.contact-logo {
+    position : absolute;
+    top : 28px;
+    left : 79px;
+    width : 28px;
+    height : 18px;
+    border : 1px solid rgba(112, 112, 112, 1);
+    z-index: 1;
+}
+
+.contact-logo:before {
+    content : "";
+    display : block;
+    width : 0px;
+    height : 0px;
+    background : transparent;
+    border-top : 14px solid rgba(122, 122, 122, 1);
+    border-left : 14px solid transparent;
+    border-right : 14px solid transparent;
+}
+
+.contact-logo:after {
+    content : "";
+    display : block;
+    width : 0px;
+    height : 0px;
+    background : transparent;
+    border-top : 13px solid rgba(255, 255, 255, 1);
+    border-left : 13px solid transparent;
+    border-right : 13px solid transparent;
+    position : absolute;
+    top : 0px;
+    left : 1px;
+}
+
+.copyright {
+    margin : 12px auto;
+    color : rgba(43, 43, 43, 1);
+    font-size : 16px;
+}
+
+.message {
+    margin-bottom : 50px;
+    border-top : 2px solid black;
+}
